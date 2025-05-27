@@ -19,11 +19,12 @@ function App() {
 
   return (
     <>
-      <div className="flex justify-center">
-        <div className="grid grid-cols-2 lg:grid-cols-3 bg-gray-50 gap-7 p-5 lg:max-w-[70%]">
+      <div className="flex flex-col items-center bg-blue-50 gap-4 p-6">
+      <h1 className="text-4xl font-bold">Discover Products</h1>
+        <div className="grid grid-cols-2 lg:grid-cols-3  gap-7 p-5 lg:max-w-[90%]">
           {products.map((product) => (
             <div key={product.id}>
-              <div className="border-2 border-gray-100 lg:min-h-[70vh]">
+              <div className="border-2 border-gray-100 bg-white lg:min-h-[70vh]">
                 <div className="w-full">
                   <img
                     className="w-full aspect-square"
