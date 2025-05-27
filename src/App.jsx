@@ -33,8 +33,8 @@ function App() {
                   />
                   <div className="p-4 flex flex-col gap-4">
                     <div className="font-bold">{product.title}</div>
-                    <div>{product.description}</div>
-                    <div className="text-2xl text-green-600">SAR {product.price}</div>
+                    <div className="text-gray-700">{product.description}</div>
+                    <div className="text-2xl text-green-700 font-bold">SAR {product.price}</div>
                     <div className="flex gap-5">
                       <div>{product.rating.rate} ⭐️</div>
                       <div>({product.rating.count})</div>
