@@ -36,8 +36,8 @@ function App() {
                     <div>{product.description}</div>
                     <div className="text-2xl text-green-600">SAR {product.price}</div>
                     <div className="flex gap-5">
-                      <div>{product.rating.rate}</div>
-                      <div>{product.rating.count}</div>
+                      <div>{product.rating.rate} ⭐️</div>
+                      <div>({product.rating.count})</div>
                     </div>
                   </div>
                 </div>
